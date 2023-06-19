@@ -10,13 +10,13 @@ let ul = document.createElement("ul");
 document.body.appendChild(ul);
 
 // cycle variable
-let i = 0
-while (i < list.length){
-    ul.innerHTML += `
-        <li>
-            ${list[i]}
-        </li>
-    `
-    console.log('list array', list[i])
-    i++;
-}
+// let i = 0
+// while (i < list.length){
+//     ul.innerHTML += `
+//         <li>
+//             ${list[i]}
+//         </li>
+//     `
+//     console.log('list array', list[i])
+//     i++;
+// }
